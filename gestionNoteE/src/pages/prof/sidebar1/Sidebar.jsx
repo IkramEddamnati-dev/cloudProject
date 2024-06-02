@@ -21,7 +21,7 @@ const Sidebar = () => {
   const handleLogout = () => {
     // Dispatch a logout action from AuthContext
     authDispatch({ type: "LOGOUT" });
-    navigate('/login'); // Navigate to the login page after logout
+    navigate('/'); // Navigate to the login page after logout
   };
   return (
     <div className="sidebar">

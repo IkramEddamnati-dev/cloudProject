@@ -17,7 +17,7 @@ const NotFound = () => {
       return `/student`; // Utilisez userId pour la redirection
     } else {
       // Si aucun rôle n'est défini ou si c'est un rôle inconnu, redirigez-le vers la page de connexion
-      return '/login';
+      return '/';
     }
   };
 
